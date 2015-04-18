@@ -12,18 +12,15 @@ BOOK2 = 'book2'
 BOOK3 = 'book3'
 
 def books_price(books):
-    contadores = Counter(books)
-    distintos = len(contadores.keys())
-    repetidos = len(books)-distintos
+    discounts = {
+        2: 0.95,
+        3: 0.90,
+    }
+    book_counter = Counter(books)
+    differents = len(book_counter.keys())
+    repeated = len(books)-differents
 
-    if distintos == 2:
-        return UNIT_PRICE * 2 * 0.95 + UNIT_PRICE * repetidos
-    if distintos == 3:
-        return UNIT_PRICE * 3 * 0.90 + UNIT_PRICE * repetidos
-
-
-    return UNIT_PRICE * len(books)
-
+    return differents * discounts.get(differents, 1) * UNIT_PRICE + repeated * UNIT_PRICE
 
 with context('Harry Potter Kata'):
     
