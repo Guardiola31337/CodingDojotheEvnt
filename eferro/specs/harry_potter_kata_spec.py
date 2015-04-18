@@ -55,5 +55,4 @@ with context('Harry Potter Kata'):
 
     with describe('buing four books'):
         with it('the cost of four copies is 32'):
-            print books_price([BOOK1, BOOK3, BOOK2])
             expect(books_price([BOOK1, BOOK1, BOOK1, BOOK1])).to(equal(32))
