@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pedroduran/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/pedroduran/Documents/workspace/coding-dojo/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-479fa21e8adeaaeb7df5392524a1e8d63e1a2409.jar" />
+    </item>
+    <item
+        jar="/Users/pedroduran/Documents/workspace/coding-dojo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/pedroduran/Documents/workspace/coding-dojo/app/build/intermediates/pre-dexed/debug/classes-ef59904a3e7198d832acbe2a7729f09d0052eef8.jar" />
+    </item>
+    <item
+        jar="/Users/pedroduran/Documents/workspace/coding-dojo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/pedroduran/Documents/workspace/coding-dojo/app/build/intermediates/pre-dexed/debug/classes-7432b24db4f328b85b4cc398503ddf0732ef701e.jar" />
+    </item>
+    <item
+        jar="/Users/pedroduran/Documents/workspace/coding-dojo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/pedroduran/Documents/workspace/coding-dojo/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a43105ab6a0957486dc6c0f8734cac591ad0c041.jar" />
+    </item>
+
+</items>
