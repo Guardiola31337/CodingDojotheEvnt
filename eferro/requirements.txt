@@ -1,0 +1,5 @@
+PyHamcrest
+doublex
+mamba==0.8.3
+expects==0.7.0
+doublex-expects==0.5.0
